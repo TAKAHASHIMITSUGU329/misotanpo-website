@@ -5,6 +5,19 @@
 document.addEventListener('DOMContentLoaded', () => {
   'use strict';
 
+  // --- Random Tanpo Image ---
+  const tanpoImages = [
+    'images/tanpo_irori.png',
+    'images/tanpo_plate.png',
+    'images/tanpo_closeup.png',
+    'images/tanpo_akita.png',
+    'images/tanpo_nabe.png',
+  ];
+  const randomImg = document.querySelector('.about__image--random');
+  if (randomImg) {
+    randomImg.src = tanpoImages[Math.floor(Math.random() * tanpoImages.length)];
+  }
+
   // --- Elements ---
   const header = document.getElementById('header');
   const navToggle = document.getElementById('navToggle');
