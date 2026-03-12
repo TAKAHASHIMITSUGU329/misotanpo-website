@@ -5,6 +5,33 @@
 document.addEventListener('DOMContentLoaded', () => {
   'use strict';
 
+  // --- Hero Background Slideshow (3秒ごと) ---
+  const heroImages = [
+    'images/hero_snow_irori.png',
+    'images/hero_golden_rice.png',
+    'images/hero_charcoal_fire.png',
+    'images/hero_winter_akita.png',
+    'images/hero_miso_artisan.png',
+  ];
+  const heroBg = document.getElementById('heroBg');
+  if (heroBg) {
+    let heroIndex = Math.floor(Math.random() * heroImages.length);
+    heroBg.src = heroImages[heroIndex];
+    // プリロード
+    heroImages.forEach(function(src) {
+      var img = new Image();
+      img.src = src;
+    });
+    setInterval(function() {
+      heroBg.classList.add('fade-out');
+      setTimeout(function() {
+        heroIndex = (heroIndex + 1) % heroImages.length;
+        heroBg.src = heroImages[heroIndex];
+        heroBg.classList.remove('fade-out');
+      }, 1000);
+    }, 3000);
+  }
+
   // --- Random Tanpo Image ---
   const tanpoImages = [
     'images/tanpo_irori.png',
