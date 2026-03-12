@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="味噌たんぽ — 秋田の伝統きりたんぽと特製味噌だれの出会い。こだわりの素材で作る、新しい秋田の味をお届けします。">
+  <meta name="keywords" content="味噌たんぽ, きりたんぽ, 秋田, 味噌, 郷土料理, お取り寄せ, ギフト">
+  <meta property="og:title" content="味噌たんぽ | 秋田の新しい伝統の味">
+  <meta property="og:description" content="秋田のきりたんぽと特製味噌だれが出会った、新しい郷土の味。">
+  <meta property="og:type" content="website">
+  <title>味噌たんぽ | 秋田の新しい伝統の味</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700;900&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">&#127834;</span>
+        <span class="nav__logo-text">味噌たんぽ</span>
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#about" class="nav__link">味噌たんぽとは</a></li>
+        <li><a href="#products" class="nav__link">商品ラインナップ</a></li>
+        <li><a href="#howto" class="nav__link">おいしい食べ方</a></li>
+        <li><a href="#reviews" class="nav__link">お客様の声</a></li>
+        <li><a href="#order" class="nav__link nav__link--cta">ご注文はこちら</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="hero" id="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content container">
+      <p class="hero__subtitle fade-in">秋田の伝統 &#215; 特製味噌だれ</p>
+      <h1 class="hero__title fade-in">
+        香ばしい米の棒に、<br>
+        とろり濃厚な味噌の旨み。
+      </h1>
+      <p class="hero__description fade-in">
+        秋田県産あきたこまち100%のきりたんぽに、<br class="hide-mobile">
+        蔵元仕込みの特製味噌だれを合わせた新しい郷土の味。<br class="hide-mobile">
+        炭火の香りと味噌の深いコクが、心まであたためます。
+      </p>
+      <div class="hero__actions fade-in">
+        <a href="#order" class="btn btn--primary">ご注文はこちら</a>
+        <a href="#about" class="btn btn--outline">詳しく見る</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- 味噌たんぽとは -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section__header fade-in">
+        <p class="section__label">About</p>
+        <h2 class="section__title">味噌たんぽとは</h2>
+        <div class="section__divider"></div>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__image-wrapper fade-in">
+          <div class="about__image placeholder-image placeholder-image--tanpo">
+            <span>&#127834; 味噌たんぽイメージ</span>
+          </div>
+        </div>
+        <div class="about__text fade-in">
+          <h3 class="about__heading">秋田の誇り「きりたんぽ」に、<br>味噌だれという新しい魅力を。</h3>
+          <p>
+            きりたんぽは、炊きたてのご飯をすりつぶし、杉の棒に巻きつけて炭火で焼き上げる秋田の伝統食。
+            その素朴で香ばしい味わいは、古くから秋田の人々に愛されてきました。
+          </p>
+          <p>
+            「味噌たんぽ」は、このきりたんぽに蔵元で丁寧に仕込んだ特製味噌だれを合わせた新感覚の逸品です。
+            味噌の深いコクと甘み、そしてきりたんぽの香ばしさが絶妙に調和し、
+            一口食べれば思わず笑顔がこぼれる美味しさです。
+          </p>
+        </div>
+      </div>
+
+      <div class="about__features">
+        <div class="about__feature fade-in">
+          <div class="about__feature-icon">&#127806;</div>
+          <h4>秋田県産あきたこまち100%</h4>
+          <p>契約農家から届く新米だけを使用。粘りと甘みのあるお米が、もっちりとした食感を生み出します。</p>
+        </div>
+        <div class="about__feature fade-in">
+          <div class="about__feature-icon">&#127858;</div>
+          <h4>蔵元仕込みの特製味噌だれ</h4>
+          <p>創業百年の味噌蔵と共同開発した特製だれ。天然醸造味噌に、くるみと黒糖を加えた奥深い味わいです。</p>
+        </div>
+        <div class="about__feature fade-in">
+          <div class="about__feature-icon">&#128293;</div>
+          <h4>炭火焼きの香ばしさ</h4>
+          <p>一本一本、職人が炭火で丁寧に焼き上げます。表面はカリッと、中はもっちり。この食感が味噌だれと絡み合います。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 商品ラインナップ -->
+  <section class="products section section--alt" id="products">
+    <div class="container">
+      <div class="section__header fade-in">
+        <p class="section__label">Products</p>
+        <h2 class="section__title">商品ラインナップ</h2>
+        <div class="section__divider"></div>
+        <p class="section__description">ご家庭用からギフトまで、<br class="hide-desktop">さまざまなシーンに合わせてお選びいただけます。</p>
+      </div>
+
+      <div class="products__grid">
+        <!-- 単品 -->
+        <article class="product-card fade-in">
+          <div class="product-card__image placeholder-image placeholder-image--product1">
+            <span>味噌たんぽ 単品</span>
+          </div>
+          <div class="product-card__badge">人気No.1</div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">味噌たんぽ 単品</h3>
+            <p class="product-card__desc">まずはお試しに。味噌たんぽ3本入り。特製味噌だれ付き。ご自宅で手軽にお楽しみいただけます。</p>
+            <p class="product-card__price"><span class="product-card__yen">&yen;</span>1,200<span class="product-card__tax">（税込）</span></p>
+            <a href="#order" class="btn btn--small">カートに入れる</a>
+          </div>
+        </article>
+
+        <!-- セット -->
+        <article class="product-card fade-in">
+          <div class="product-card__image placeholder-image placeholder-image--product2">
+            <span>味噌たんぽ セット</span>
+          </div>
+          <div class="product-card__badge product-card__badge--recommend">おすすめ</div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">味噌たんぽ セット</h3>
+            <p class="product-card__desc">たっぷり6本入り。2種類の味噌だれ（くるみ味噌・ゆず味噌）を食べ比べ。ご家族でどうぞ。</p>
+            <p class="product-card__price"><span class="product-card__yen">&yen;</span>2,200<span class="product-card__tax">（税込）</span></p>
+            <a href="#order" class="btn btn--small">カートに入れる</a>
+          </div>
+        </article>
+
+        <!-- 鍋セット -->
+        <article class="product-card fade-in">
+          <div class="product-card__image placeholder-image placeholder-image--product3">
+            <span>味噌たんぽ鍋セット</span>
+          </div>
+          <div class="product-card__badge product-card__badge--winter">冬季限定</div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">味噌たんぽ鍋セット</h3>
+            <p class="product-card__desc">味噌たんぽ6本に、比内地鶏スープ・地元野菜・きのこ・せりをセット。本場の鍋をご家庭で。</p>
+            <p class="product-card__price"><span class="product-card__yen">&yen;</span>4,800<span class="product-card__tax">（税込）</span></p>
+            <a href="#order" class="btn btn--small">カートに入れる</a>
+          </div>
+        </article>
+
+        <!-- ギフトセット -->
+        <article class="product-card fade-in">
+          <div class="product-card__image placeholder-image placeholder-image--product4">
+            <span>ギフトセット</span>
+          </div>
+          <div class="product-card__badge product-card__badge--gift">贈り物に</div>
+          <div class="product-card__body">
+            <h3 class="product-card__name">味噌たんぽ ギフトセット</h3>
+            <p class="product-card__desc">化粧箱入り。味噌たんぽ8本、味噌だれ3種、秋田の地酒ミニボトル付き。大切な方への贈り物に。</p>
+            <p class="product-card__price"><span class="product-card__yen">&yen;</span>5,500<span class="product-card__tax">（税込）</span></p>
+            <a href="#order" class="btn btn--small">カートに入れる</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- おいしい食べ方 -->
+  <section class="howto section" id="howto">
+    <div class="container">
+      <div class="section__header fade-in">
+        <p class="section__label">How to Eat</p>
+        <h2 class="section__title">おいしい食べ方</h2>
+        <div class="section__divider"></div>
+        <p class="section__description">ご自宅で簡単に、最高の味噌たんぽをお楽しみいただけます。</p>
+      </div>
+
+      <div class="howto__steps">
+        <div class="howto__step fade-in">
+          <div class="howto__step-number">1</div>
+          <div class="howto__step-icon placeholder-image placeholder-image--step">
+            <span>&#128230;</span>
+          </div>
+          <h3>パッケージを開封</h3>
+          <p>冷凍の場合は冷蔵庫で約6時間かけてゆっくり解凍してください。味噌だれは常温に戻しておくと塗りやすくなります。</p>
+        </div>
+
+        <div class="howto__step fade-in">
+          <div class="howto__step-number">2</div>
+          <div class="howto__step-icon placeholder-image placeholder-image--step">
+            <span>&#128293;</span>
+          </div>
+          <h3>こんがり焼く</h3>
+          <p>オーブントースターで約5分、またはフライパンで中火で転がしながら焼きます。表面がこんがりきつね色になるまで焼いてください。</p>
+        </div>
+
+        <div class="howto__step fade-in">
+          <div class="howto__step-number">3</div>
+          <div class="howto__step-icon placeholder-image placeholder-image--step">
+            <span>&#127836;</span>
+          </div>
+          <h3>味噌だれを塗る</h3>
+          <p>焼きたてのたんぽに特製味噌だれをたっぷり塗ります。もう一度軽くあぶると、味噌が香ばしく焼けてさらに美味しくなります。</p>
+        </div>
+
+        <div class="howto__step fade-in">
+          <div class="howto__step-number">4</div>
+          <div class="howto__step-icon placeholder-image placeholder-image--step">
+            <span>&#10024;</span>
+          </div>
+          <h3>できあがり</h3>
+          <p>アツアツのうちにお召し上がりください。お好みで七味唐辛子やネギを添えても美味しくいただけます。日本酒との相性も抜群です。</p>
+        </div>
+      </div>
+
+      <div class="howto__tip fade-in">
+        <div class="howto__tip-icon">&#128161;</div>
+        <div class="howto__tip-content">
+          <h4>鍋に入れるなら</h4>
+          <p>味噌たんぽ鍋セットの場合は、スープが煮立ったら具材を入れ、最後に味噌たんぽを加えて2~3分煮込みます。煮すぎると崩れやすくなるのでご注意ください。せりは火を止めてから加えるのがおすすめです。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- お客様の声 -->
+  <section class="reviews section section--alt" id="reviews">
+    <div class="container">
+      <div class="section__header fade-in">
+        <p class="section__label">Reviews</p>
+        <h2 class="section__title">お客様の声</h2>
+        <div class="section__divider"></div>
+      </div>
+
+      <div class="reviews__grid">
+        <article class="review-card fade-in">
+          <div class="review-card__stars" aria-label="星5つ">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">
+            「秋田出身の母に贈りました。『懐かしい味がする、でも味噌だれが新しい！』と大喜び。味噌の甘じょっぱさともっちりしたたんぽの相性が最高です。リピート確定です。」
+          </p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">T.S</div>
+            <div>
+              <p class="review-card__name">T.S 様</p>
+              <p class="review-card__meta">東京都 / 40代女性</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card fade-in">
+          <div class="review-card__stars" aria-label="星5つ">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">
+            「鍋セットを注文しました。比内地鶏のスープに味噌たんぽがよく合う！家族4人であっという間に完食。子どもたちが『また食べたい！』と催促するほどの美味しさでした。」
+          </p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">M.K</div>
+            <div>
+              <p class="review-card__name">M.K 様</p>
+              <p class="review-card__meta">大阪府 / 30代男性</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card fade-in">
+          <div class="review-card__stars" aria-label="星4つ">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+          <p class="review-card__text">
+            「ゆず味噌だれが特にお気に入りです。さわやかな香りとコクのある味噌が絶妙。トースターで焼くだけで簡単なのに、お酒のおつまみとしてもレベルが高い。友人にも勧めています。」
+          </p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">A.H</div>
+            <div>
+              <p class="review-card__name">A.H 様</p>
+              <p class="review-card__meta">福岡県 / 50代男性</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="review-card fade-in">
+          <div class="review-card__stars" aria-label="星5つ">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="review-card__text">
+            「ギフトセットを取引先への手土産に使いました。包装も上品で、秋田の地酒も付いていて喜ばれました。『こんな美味しいもの初めて』と連絡をいただき、こちらも嬉しくなりました。」
+          </p>
+          <div class="review-card__author">
+            <div class="review-card__avatar">Y.N</div>
+            <div>
+              <p class="review-card__name">Y.N 様</p>
+              <p class="review-card__meta">神奈川県 / 60代女性</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ご注文 -->
+  <section class="order section" id="order">
+    <div class="container">
+      <div class="section__header fade-in">
+        <p class="section__label">Order</p>
+        <h2 class="section__title">ご注文</h2>
+        <div class="section__divider"></div>
+        <p class="section__description">以下のオンラインショップからご注文いただけます。<br>送料は全国一律880円、5,000円以上で送料無料です。</p>
+      </div>
+
+      <div class="order__cards">
+        <div class="order__card fade-in">
+          <h3>公式オンラインショップ</h3>
+          <p>全商品をお取り扱い。会員登録でポイントが貯まります。</p>
+          <a href="#" class="btn btn--primary btn--large">公式ショップで購入</a>
+        </div>
+        <div class="order__card fade-in">
+          <h3>楽天市場店</h3>
+          <p>楽天ポイントが使える・貯まる。楽天ユーザーにおすすめ。</p>
+          <a href="#" class="btn btn--secondary btn--large">楽天市場で購入</a>
+        </div>
+        <div class="order__card fade-in">
+          <h3>Amazon店</h3>
+          <p>Prime対応商品あり。お急ぎ便で最短翌日届きます。</p>
+          <a href="#" class="btn btn--secondary btn--large">Amazonで購入</a>
+        </div>
+      </div>
+
+      <div class="order__notice fade-in">
+        <p>&#9888; 鍋セットは冷凍便でのお届けとなります。お届け日時のご指定が可能です。<br>
+        法人様・大量注文のご相談は <a href="mailto:info@miso-tanpo.jp">info@miso-tanpo.jp</a> までお気軽にお問い合わせください。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">
+            <span>&#127834;</span> 味噌たんぽ
+          </a>
+          <p class="footer__tagline">秋田の新しい伝統の味</p>
+          <div class="footer__sns">
+            <a href="#" class="footer__sns-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </a>
+            <a href="#" class="footer__sns-link" aria-label="X (Twitter)">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="footer__sns-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" class="footer__sns-link" aria-label="LINE">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__links">
+          <h4>メニュー</h4>
+          <ul>
+            <li><a href="#about">味噌たんぽとは</a></li>
+            <li><a href="#products">商品ラインナップ</a></li>
+            <li><a href="#howto">おいしい食べ方</a></li>
+            <li><a href="#reviews">お客様の声</a></li>
+            <li><a href="#order">ご注文</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__links">
+          <h4>ご案内</h4>
+          <ul>
+            <li><a href="#">特定商取引法に基づく表記</a></li>
+            <li><a href="#">プライバシーポリシー</a></li>
+            <li><a href="#">配送・送料について</a></li>
+            <li><a href="#">返品・交換について</a></li>
+            <li><a href="#">よくあるご質問</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__contact">
+          <h4>お問い合わせ</h4>
+          <p>味噌たんぽ本舗</p>
+          <p>〒010-0000<br>秋田県秋田市中通1-2-3</p>
+          <p><a href="tel:018-000-0000">TEL: 018-000-0000</a></p>
+          <p><a href="mailto:info@miso-tanpo.jp">info@miso-tanpo.jp</a></p>
+          <p class="footer__hours">営業時間: 9:00~17:00（土日祝休み）</p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2026 味噌たんぽ本舗. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- トップへ戻るボタン -->
+  <button class="back-to-top" id="backToTop" aria-label="ページの先頭に戻る">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
